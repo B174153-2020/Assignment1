@@ -27,3 +27,4 @@ cat ~/Assignment1/222_L8_1_fastqc/summary.txt
 cat ~/Assignment1/222_L8_2_fastqc/summary.txt
 cp -r /localdisk/data/BPSM/Assignment1/Tbb_genome/ ~/Assignment1
 gunzip ~/Assignment1/Tbb_genome/Tb927_genome.fasta.gz
+bowtie2-build ~/Assignment1/Tbb_genome/Tb927_genome.fasta index
