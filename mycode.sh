@@ -34,3 +34,9 @@ bowtie2 -x ~/Assignment1/Tbb_genome/index -1 ~/Assignment1/fastq/219_L8_1.fq -2 
 bowtie2 -x ~/Assignment1/Tbb_genome/index -1 ~/Assignment1/fastq/220_L8_1.fq -2 ~/Assignment1/fastq/220_L8_2.fq -S 220_L8.sam
 bowtie2 -x ~/Assignment1/Tbb_genome/index -1 ~/Assignment1/fastq/221_L8_1.fq -2 ~/Assignment1/fastq/221_L8_2.fq -S 221_L8.sam
 bowtie2 -x ~/Assignment1/Tbb_genome/index -1 ~/Assignment1/fastq/222_L8_1.fq -2 ~/Assignment1/fastq/222_L8_2.fq -S 222_L8.sam
+samtools sort 216_L8.sam > 216_L8.bam
+samtools sort 218_L8.sam > 218_L8.bam
+samtools sort 219_L8.sam > 219_L8.bam
+samtools sort 220_L8.sam > 220_L8.bam
+samtools sort 221_L8.sam > 221_L8.bam
+samtools sort 222_L8.sam > 222_L8.bam
