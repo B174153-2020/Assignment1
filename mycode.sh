@@ -47,3 +47,4 @@ samtools index 220_L8.bam
 samtools index 221_L8.bam
 samtools index 222_L8.bam
 cp -r /localdisk/data/BPSM/Assignment1/Tbbgenes.bed ~/Assignment1
+bedtools multicov -bams 216_L8.bam 218_L8.bam 219_L8.bam 220_L8.bam 221_L8.bam 222_L8.bam -bed Tbbgenes.bed > gene_counts.txt
