@@ -25,3 +25,4 @@ cat ~/Assignment1/221_L8_1_fastqc/summary.txt
 cat ~/Assignment1/221_L8_2_fastqc/summary.txt
 cat ~/Assignment1/222_L8_1_fastqc/summary.txt
 cat ~/Assignment1/222_L8_2_fastqc/summary.txt
+cp -r /localdisk/data/BPSM/Assignment1/Tbb_genome/ ~/Assignment1
