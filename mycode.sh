@@ -40,3 +40,9 @@ samtools sort 219_L8.sam > 219_L8.bam
 samtools sort 220_L8.sam > 220_L8.bam
 samtools sort 221_L8.sam > 221_L8.bam
 samtools sort 222_L8.sam > 222_L8.bam
+samtools index 216_L8.bam
+samtools index 218_L8.bam
+samtools index 219_L8.bam
+samtools index 220_L8.bam
+samtools index 221_L8.bam
+samtools index 222_L8.bam
