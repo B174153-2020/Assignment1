@@ -46,3 +46,4 @@ samtools index 219_L8.bam
 samtools index 220_L8.bam
 samtools index 221_L8.bam
 samtools index 222_L8.bam
+cp -r /localdisk/data/BPSM/Assignment1/Tbbgenes.bed ~/Assignment1
